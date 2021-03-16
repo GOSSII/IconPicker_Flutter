@@ -1,0 +1,42 @@
+name: custom_icon_picker
+description: A Dialog for picking Icons in Flutter and use them anywhere. Can be
+  used as a default Dialog or as a Adaptive Dialog.
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+  #sdk: '>=2.12.0 <3.0.0'
+  #flutter: ">=1.12.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  font_awesome_flutter: 8.12.0
+  fluttertoast: 7.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: LineAwesomeIcons
+      fonts:
+        - asset: fonts/LineAwesome.ttf
+          style: normal
+    - family: FontAwesomeBrands
+      fonts:
+        - asset: fonts/fa-brands-400.ttf
+          style: normal
+    - family: FontAwesomeSolid
+      fonts:
+        - asset: fonts/fa-solid-900.ttf
+          style: normal
+    - family: FontAwesomeRegular
+      fonts:
+        - asset: fonts/fa-regular-400.ttf
+          style: normal
